@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #1a73e8;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 640px;
+            height: 360px;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>个人姓名</h1>
+        <p>个人简介或标语</p>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>关于我</h2>
+            <p>这里是个人简介或其他相关信息。</p>
+        </section>
+
+        <section class="video-container">
+            <h2>视频展示</h2>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>联系方式</h2>
+            <p>可以通过以下方式联系我：</p>
+            <div class="social-links">
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+                <!-- 你可以根据需要添加更多社交媒体链接 -->
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 个人姓名. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
